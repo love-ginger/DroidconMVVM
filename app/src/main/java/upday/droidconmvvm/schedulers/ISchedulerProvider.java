@@ -1,7 +1,6 @@
 package upday.droidconmvvm.schedulers;
 
 import android.support.annotation.NonNull;
-
 import rx.Scheduler;
 
 /**
@@ -9,9 +8,9 @@ import rx.Scheduler;
  */
 public interface ISchedulerProvider {
 
-    @NonNull
-    Scheduler computation();
+  @NonNull
+  Scheduler computation();
 
-    @NonNull
-    Scheduler ui();
+  @NonNull
+  Scheduler ui();
 }
